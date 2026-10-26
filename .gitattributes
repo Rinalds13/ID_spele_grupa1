@@ -1,0 +1,31 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Explicitly declare text files you want normalized to LF on commit
+*.cs text
+*.json text
+*.shader text
+*.cginc text
+*.hlsl text
+*.compute text
+*.xml text
+*.yaml text
+*.meta text
+*.asset text
+*.unity text
+
+# Treat Unity binary files as binary (do not modify line endings)
+*.prefab binary
+*.mat binary
+*.fbx binary
+*.obj binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.blend binary
+*.dll binary
